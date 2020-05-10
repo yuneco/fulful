@@ -1,21 +1,32 @@
-.DS_Store
-node_modules
-/dist
+dist
+work
 
-# local env files
-.env.local
-.env.*.local
+# Created by https://www.gitignore.io/api/vue,firebase
+# Edit at https://www.gitignore.io/?templates=vue,firebase
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor directories and files
+### Firebase ###
 .idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+### Vue ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.gitignore.io/api/vue,firebase
